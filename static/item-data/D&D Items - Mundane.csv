@@ -1,0 +1,217 @@
+Name,Price,Weight,Type,Subtype
+Club,1 sp,2 lb.,Weapon,Simple
+Dagger,2 gp,1 lb.,Weapon,Simple
+Greatclub,2 sp,10 lb.,Weapon,Simple
+Handaxe,5 gp,2 lb.,Weapon,Simple
+Javelin,5 sp,2 lb.,Weapon,Simple
+Light hammer,2 gp,2 lb.,Weapon,Simple
+Mace,5 gp,5 lb.,Weapon,Simple
+Quarterstaff,2 sp,5 lb.,Weapon,Simple
+Sickle,1 gp,2 lb.,Weapon,Simple
+Spear,1 gp,3 lb.,Weapon,Simple
+"Crossbow, light",25 gp,5 lb.,Weapon,Simple
+Dart,5 cp,.25 lb.,Weapon,Simple
+Shortbow,25 gp,2 lb.,Weapon,Simple
+Sling,1 sp,-,Weapon,Simple
+Battleaxe,10 gp,4 lb.,Weapon,Martial
+Flail,10 gp,2 lb.,Weapon,Martial
+Glaive,20 gp,6 lb.,Weapon,Martial
+Greataxe,30 gp,7 lb.,Weapon,Martial
+Greatsword,50 gp,6 lb.,Weapon,Martial
+Halberd,20 gp,6 lb.,Weapon,Martial
+Lance,10 gp,6 lb.,Weapon,Martial
+Longsword,15 gp,3 lb.,Weapon,Martial
+Maul,10 gp,10 lb.,Weapon,Martial
+Morningstar,15 gp,4 lb.,Weapon,Martial
+Pike,5 gp,18 lb.,Weapon,Martial
+Rapier,25 gp,2 lb.,Weapon,Martial
+Scimitar,25 gp,3 lb.,Weapon,Martial
+Shortsword,10 gp,2 lb.,Weapon,Martial
+Trident,5 gp,5 lb.,Weapon,Martial
+War pick,5 gp,2 lb.,Weapon,Martial
+Warhammer,15 gp,2 lb.,Weapon,Martial
+Whip,2 gp,3 lb.,Weapon,Martial
+Blowgun,10 gp,1 lb.,Weapon,Martial
+"Crossbow, hand",75 gp,3 lb.,Weapon,Martial
+"Crossbow, heavy",50 gp,18 lb.,Weapon,Martial
+Longbow,50 gp,2 lb.,Weapon,Martial
+Net,1 gp,3 lb.,Weapon,Martial
+Padded,5 gp,8 lb.,Armor,Light
+Leather,10 gp,10 lb.,Armor,Light
+Studded Leather,45 gp,13 lb.,Armor,Light
+Hide,10 gp,12 lb.,Armor,Medium
+Chain Shirt,50 gp,20 lb.,Armor,Medium
+Scail Mail,50 gp,45 lb.,Armor,Medium
+Breastplate,400 gp,20 lb.,Armor,Medium
+Half Plate,750 gp,40 lb.,Armor,Medium
+Ring Mail,30 gp,40 lb.,Armor,Heavy
+Chain Mail,75 gp,55 lb.,Armor,Heavy
+Splint,200 gp,60 lb.,Armor,Heavy
+Plate,1500 gp,65 lb.,Armor,Heavy
+Shield,10 gp,6 lb.,Armor,Shield
+Camel,,50 gp,Transport,Animal
+Donkey or Mule,,8 gp,Transport,Animal
+Elephant,,200 gp,Transport,Animal
+"Horse, Draft",,50 gp,Transport,Animal
+"Horse, Riding",,75 gp,Transport,Animal
+Mastiff,,25 gp,Transport,Animal
+Pony,,30 gp,Transport,Animal
+Warhorse,,400 gp,Transport,Animal
+Galley,"30,000 gp",150,Transport,Ship
+Keelboat,"3,000 gp",0.5,Transport,Ship
+Longship,"10,000 gp",10,Transport,Ship
+Rowboat,50 gp,-,Transport,Ship
+Sailing Ship,"10,000 gp",100,Transport,Ship
+Warship,"25,000 gp",200,Transport,Ship
+Airship,"20,000 gp",1,Transport,Air
+Abacus,2 gp,2 lb.,Misc,Misc
+Acid (vial),25 gp,1 lb.,Misc,Ammo
+Alchemist's Fire (flask),50 gp,1 lb.,Misc,Ammo
+Arrows (20),1 gp,1 lb.,Misc,Ammo
+Blowgun Needle (50),1 gp,1 lb.,Misc,Ammo
+Crossbow Bolts (20),1 gp,1.5 lb.,Misc,Ammo
+Sling Bullets (20),4 cp,1.5 lb.,Misc,Ammo
+Crystal,10 gp,1 lb.,Misc,Focus
+Orb,20 gp,3 lb.,Misc,Focus
+Rod,10 gp,2 lb.,Misc,Focus
+Staff,5 gp,4 lb.,Misc,Focus
+Wand,10 gp,1 lb.,Misc,Focus
+Backpack,2 gp,5 lb.,Misc,Gear
+Ball Bearings (bag of 1000),1 gp,2 lb.,Misc,Gear
+Barrel,2 gp,70 lb.,Misc,Gear
+Basket,4 sp,2 lb.,Misc,Gear
+Bedroll,1 gp,7 lb.,Misc,Gear
+Bell,1 gp,-,Misc,Gear
+Blanket,5 sp,3 lb.,Misc,Gear
+Block and Tackle,1 gp,5 lb.,Misc,Gear
+Book,25 gp,5 lb.,Misc,Gear
+"Bottle, Glass",2 gp,2 lb.,Misc,Gear
+Bucket,5 cp,2 lb.,Misc,Gear
+Caltrops (bag of 20),1 gp,2 lb.,Misc,Gear
+Candle,1 cp,-,Misc,Gear
+"Case, Crossbow Bolt",1 gp,1 lb.,Misc,Gear
+"Case, Map and Scroll",1 gp,1 lb.,Misc,Gear
+Chain (10ft),5 gp,10 lb.,Misc,Gear
+Chalk (1 piece),1 cp,-,Misc,Gear
+Chest,5 gp,25 lb.,Misc,Gear
+Climber's kit,25 gp,12 lb.,Misc,Gear
+"Clothes, Common",5 sp,3 lb.,Misc,Gear
+"Clothes, Costume",5 gp,4 lb.,Misc,Gear
+"Clothes, Fine",15 gp,6 lb.,Misc,Gear
+"Clothes, Traveler's",2 gp,4 lb.,Misc,Gear
+Component Pouch,25 gp,2 lb.,Misc,Gear
+Crowbar,2 gp,5 lb.,Misc,Gear
+Sprig of Mistletoe,1 gp,-,Misc,Focus
+Totem,1 gp,-,Misc,Focus
+Wooden Staff,5 gp,4 lb.,Misc,Focus
+Yew Wand,10 gp,1 lb.,Misc,Focus
+Flask or Tankard,1 gp,4 lb.,Misc,Misc
+Flask or Tankard,2 cp,1 lb.,Misc,Misc
+Grappling Hook,2 gp,4 lb.,Misc,Gear
+Hammer,1 gp,3 lb.,Misc,Gear
+"Hammer, Sledge",2 gp,10 lb.,Misc,Gear
+Healer's kit,5 gp,3 lb.,Misc,Tools
+Barding,x4,x2,Misc,Gear
+Bit and Bridle,2 gp,1 lb.,Misc,Gear
+Carriage,100 gp,600 lb.,Transport,Misc
+Cart,15 gp,200 lb.,Transport,Misc
+Chariot,250 gp,100 lb.,Transport,Misc
+Feed (per day),5 cp,10 lb.,Misc,Gear
+Exotic Saddle,60 gp,40 lb.,Misc,Gear
+Military Saddle,20 gp,30 lb.,Misc,Gear
+Saddle Pack,5 gp,15 lb.,Misc,Gear
+Saddlebags,4 gp,8 lb.,Misc,Gear
+Sled,20 gp,300 lb.,Misc,Gear
+Stabling (per day),5 sp,-,Misc,Service
+Wagon,35 gp,400 lb.,Transport,Misc
+Holy Symbol,,,Misc,Focus
+Amulet ,5 gp, 1 Ib,Misc,Focus
+Emblem , 5 gp,-,Misc,Focus
+Reliquary ,5 gp,2 lb.,Misc,Focus
+Holy water (flask),25 gp,1 lb.,Misc,Ammo
+Hourglass ,25 gp,1 lb.,Misc,Gear
+Hunting Trap,5 gp,25 lb.,Misc,Gear
+Ink (1 ounce bottle),10 gp,-,Misc,Gear
+Ink pen,2 cp,,Misc,Gear
+Jug or pitcher,2 cp,4 lb.,Misc,Gear
+Ladder (10-foot),1 sp,25 lb.,Misc,Gear
+Lamp,5 sp,1 lb.,Misc,Gear
+"Lantern, Bullseye",10 gp,2 lb.,Misc,Gear
+"Lantern, hooded",5 gp,2 lb.,Misc,Gear
+Lock,10 gp,1 lb.,Misc,Gear
+Magnifying glass,100 gp,-,Misc,Gear
+Manacles,2 gp,6 lb.,Misc,Gear
+Mess ki,2 sp,1 lb.,Misc,Gear
+"Mirror, steel",5 gp,.25 lb.,Misc,Gear
+Oil (flask),1 sp,1 lb.,Misc,Gear
+Paper (one sheet),2 sp,-,Misc,Gear
+Parchment (one sheet),1 sp,-,Misc,Gear
+Perfume (vial),5 gp,-,Misc,Gear
+"Pick, miner's",2 gp,10 lb.,Misc,Gear
+Piton,5 cp,.25 lb.,Misc,Gear
+"Poison, basic (vial)",100 gp,-,Misc,Gear
+Pole (10-foot),5 cp,7 lb.,Misc,Gear
+"Pot, iron",2 gp,10 lb.,Misc,Gear
+Potion of healing,50 gp,.5 lb.,Misc,Gear
+Pouch,5 sp,1 lb.,Misc,Gear
+Quiver,1 gp,1 lb.,Misc,Gear
+"Ram, portable",4 gp,35 lb.,Misc,Gear
+Rations (l day),5 sp,2 lb.,Misc,Gear
+Robes,1 gp,4 lb.,Misc,Gear
+"Rope, hempen (50 feet)",1 gp,10 lb.,Misc,Gear
+"Rope, silk (50 feet)",10 gp,5 lb.,Misc,Gear
+Sack,1 cp,.5 lb.,Misc,Gear
+"Scale, merchant's",5 gp,3 lb.,Misc,Gear
+Sealing wax,5 sp,-,Misc,Gear
+Shovel,2 gp,5 lb.,Misc,Gear
+Signal whistle,5 cp,-,Misc,Gear
+Signe! ring,5 gp,-,Misc,Gear
+Soap,2 cp,-,Misc,Gear
+Spellbook,50 gp,3 lb.,Misc,Gear
+"Spikes, iron (10)",1 gp,5 lb.,Misc,Gear
+Spyglass,1000 gp,1 lb.,Misc,Gear
+"Tent, two-person",2 gp,20 lb.,Misc,Gear
+Tinderbox,5 sp,1 lb.,Misc,Gear
+Torch,1 cp,1 lb.,Misc,Gear
+Vial,1 gp,-,Misc,Gear
+Waterskin,2 sp,(Full) 5 lb.,Misc,Gear
+Whetstone,1 cp,1 lb.,Misc,Gear
+Artisan's Tools,,,Misc,Tools
+Alchemist's supplies,50 gp,8 lb.,Misc,Tools
+Brewer's supplies,20 gp,9 lb.,Misc,Tools
+Calligrapher's supplies,10 gp,5 lb.,Misc,Tools
+Carpenter's tools,8 gp,6 lb.,Misc,Tools
+Cartographer's tools,15 gp,6 lb.,Misc,Tools
+Cobbler's tools,5 gp,5 lb.,Misc,Tools
+Cook's utensils,1 gp,8 lb.,Misc,Tools
+Glassblower's tools,30 gp,5 lb.,Misc,Tools
+Jeweler's tools,25 gp,2 lb.,Misc,Tools
+Leatherworker's tools,5 gp,5 lb.,Misc,Tools
+Mason's tools,10 gp,8 lb.,Misc,Tools
+Painter's supplies,10 gp,5 lb.,Misc,Tools
+Potter's tools,10 gp,3 lb.,Misc,Tools
+Smith's tools,20 gp,8 lb.,Misc,Tools
+Tinker's tools,50 gp,10 lb.,Misc,Tools
+Weaver's tools,1 gp,5 lb.,Misc,Tools
+Woodcarver's tools,1 gp,5 lb.,Misc,Tools
+Disguise kit,25 gp,3 lb.,Misc,Tools
+Forgery kit,15 gp,5 lb.,Misc,Tools
+Gaming Sets,,,Misc,Game
+Dice set,1 sp,-,Misc,Game
+Dragonchess set,1 gp,.5 lb.,Misc,Game
+Playing card set,5 gp,-,Misc,Game
+Three-Dragon Ante set,1 gp,-,Misc,Game
+Herbalism kit,5 gp,3 lb.,Misc,Tools
+Bagpipe,30 gp,6 lb.,Misc,Tools
+Drum,6 gp,3 lb.,Misc,Tools
+Dulcimer,25 gp,10 lb.,Misc,Tools
+Flute,2 gp,1 lb.,Misc,Tools
+Lute,35 gp,2 lb.,Misc,Tools
+Lyre,30 gp,2 lb.,Misc,Tools
+Horn,3 gp,2 lb.,Misc,Tools
+Pan Flute,12 gp,2 lb.,Misc,Tools
+Shawm,2 gp,1 lb.,Misc,Tools
+Viol,30 gp,1 lb.,Misc,Tools
+Navigator's tools,25 gp,2 lb.,Misc,Tools
+Poisoner's kit,50 gp,2 lb.,Misc,Tools
+Thieves' tools,25 gp,1 lb.,Misc,Tools

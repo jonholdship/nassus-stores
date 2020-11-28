@@ -1,0 +1,75 @@
+:root {
+  --main-bg-color: #264653;
+  --white: #faf0e6; 
+  --blacksmith:#E76F51;
+  --alchemist:#E9C46A;
+  --general:#2A9D8F;
+  --other:#F4A261;
+}
+
+body {
+  background-color: var(--main-bg-color);
+}
+
+h1 {
+    color: var(--white);
+    text-align: center;
+    padding: 10px;
+}
+
+h2 {
+	color: white;
+}
+
+.grid-container {
+  display: grid;
+  height: 400px;
+  align-content: center;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: black;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.grid-container > .general {
+  background-color: var(--general);
+}.grid-container > .alchemist {
+  background-color: var(--alchemist);
+}
+.grid-container > .blacksmith {
+  background-color: var(--blacksmith);
+}
+
+
+
+
+.general-table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+.general-table td, .general-table th {
+  border: 0px solid #ddd;
+  padding: 8px;
+}
+
+.general-table tr:nth-child(even){background-color: var(--white);}
+
+.general-table tr:nth-child(odd){background-color: var(--general);}
+
+.general-table tr:hover {background-color: #ddd;}
+
+.general-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: var(--general);
+  color: white;
+}
