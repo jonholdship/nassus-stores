@@ -41,9 +41,12 @@ h2 {
   background-color: var(--general);
 }.grid-container > .alchemist {
   background-color: var(--alchemist);
+  opacity: .3;
+
 }
 .grid-container > .blacksmith {
   background-color: var(--blacksmith);
+  opacity: .3;
 }
 
 
