@@ -65,7 +65,6 @@ Crowbar,5 lb.,Misc,Gear,2,gp
 Grappling Hook,4 lb.,Misc,Gear,2,gp
 Hammer,3 lb.,Misc,Gear,1,gp
 "Hammer, Sledge",10 lb.,Misc,Gear,2,gp
-Barding,x2,Misc,Gear,x4,
 Bit and Bridle,1 lb.,Misc,Gear,2,gp
 Feed (per day),10 lb.,Misc,Gear,5,cp
 Exotic Saddle,40 lb.,Misc,Gear,60,gp
@@ -159,7 +158,7 @@ Viol,1 lb.,Misc,Tools,30,gp
 Navigator's tools,2 lb.,Misc,Tools,25,gp
 Poisoner's kit,2 lb.,Misc,Tools,50,gp
 Thieves' tools,1 lb.,Misc,Tools,25,gp
-Airship,1,Transport,Air,"20,000",gp
+Airship,1,Transport,Air,20000,gp
 Camel,50 gp,Transport,Animal,,
 Donkey or Mule,8 gp,Transport,Animal,,
 Elephant,200 gp,Transport,Animal,,
@@ -172,12 +171,12 @@ Carriage,600 lb.,Transport,Misc,100,gp
 Cart,200 lb.,Transport,Misc,15,gp
 Chariot,100 lb.,Transport,Misc,250,gp
 Wagon,400 lb.,Transport,Misc,35,gp
-Galley,150,Transport,Ship,"30,000",gp
-Keelboat,0.5,Transport,Ship,"3,000",gp
-Longship,10,Transport,Ship,"10,000",gp
+Galley,150,Transport,Ship,30000,gp
+Keelboat,0.5,Transport,Ship,3000,gp
+Longship,10,Transport,Ship,10000,gp
 Rowboat,-,Transport,Ship,50,gp
-Sailing Ship,100,Transport,Ship,"10,000",gp
-Warship,200,Transport,Ship,"25,000",gp
+Sailing Ship,100,Transport,Ship,10000,gp
+Warship,200,Transport,Ship,25000,gp
 Battleaxe,4 lb.,Weapon,Martial,10,gp
 Flail,2 lb.,Weapon,Martial,10,gp
 Glaive,6 lb.,Weapon,Martial,20,gp
