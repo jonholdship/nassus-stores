@@ -31,10 +31,21 @@ h2 {
 }
 
 .grid-container > div {
+
+}
+
+.divvy{
+  display:block;
   background-color: black;
   text-align: center;
+  text-decoration: none;
   padding: 20px 0;
   font-size: 30px;
+}
+
+ a {
+  text-decoration: none;
+  color:var(--white);
 }
 
 .grid-container > .general {
@@ -76,3 +87,50 @@ h2 {
   background-color: var(--general);
   color: white;
 }
+
+ /* Dropdown Button */
+.btn {
+  background-color: var(--general);
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: absolute;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.btn:hover, .dropdown:hover .btn  {
+  background-color: var(--general);
+} 

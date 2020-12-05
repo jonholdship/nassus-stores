@@ -3,13 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <title>Nassus</title>
 </head>
 <body>
-   <h1>Welcome to Nassus</h1>
+   <h1>{{name}}</h1>
+
+ <!-- Font Awesome Icon Library -->
+ <a href="/" class="btn">Back to Town</a>
+<button class="btn">Generate</button>
+<div class="dropdown">
+  <button class="btn" style="border-left:1px solid navy">
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-content">
+  	{% for level in levels %}
+  		<a href="{{level}}">{{level}}</a>
+  	{% endfor %}
+  </div>
+</div> 
 
   {% for table in tables %}
-    <h2>{{titles[loop.index]}}</h2>
+    <h2>{{titles[loop.index-1]}}</h2>
     {{ table|safe }}
   {% endfor %}
 </body>
