@@ -1,4 +1,4 @@
-from flask import Flask,render_template
+from flask import Flask,render_template,redirect
 from store import Store
 app= Flask(__name__)
 
@@ -13,5 +13,6 @@ def generate_general(level):
 	store=Store("general_store")
 	if level is not None:
 		store.generate_items_list(level)
+		return redirect("/general-store/")
 	tables,titles=store.get_item_tables()
 	return render_template("store.html",name="General Store",tables=[table.to_html(classes="general-table",index=False) for table in tables],titles=titles,levels=["Level 1","Level 2"])
