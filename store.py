@@ -37,6 +37,7 @@ class Store:
 		table["Title"]=table["Type"]+" ("+table["Subtype"]+")"
 		titles=table["Title"].unique()
 		table=[table[table["Title"]==x] for x in titles]
+		table=table.drop("Title",axis=1).fillna("-")
 		print(titles)
 		return table,titles
 
