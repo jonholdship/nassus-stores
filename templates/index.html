@@ -9,9 +9,19 @@
    <h1>Welcome to Nassus</h1>
 
 <div class="grid-container">
-  <a href="general-store" class="divvy general"><h2> General Store</h2></a>
-  <a class="divvy alchemist"><h2> Alchemist</h2></a>
-  <a class="divvy blacksmith"><h2> Blacksmith</h2></a>
+  <a href="store/general_store" class="divvy general">
+  		<h2> General Store</h2>
+  		<img src="{{ url_for('static', filename= 'img/bag_t.png') }}">
+  </a>
+  <a class="divvy alchemist">
+  		<h2> Alchemist</h2>
+		<img src="{{ url_for('static', filename= 'img/bottle_t.png') }}">
+
+  </a>
+  <a href="store/blacksmith" class="divvy blacksmith">
+  		<h2> Blacksmith</h2>
+  		<img src="{{ url_for('static', filename= 'img/anvil_t.png') }}">
+  </a>
 </div>
 </body>
 </html>

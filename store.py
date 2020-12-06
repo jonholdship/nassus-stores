@@ -1,14 +1,19 @@
 import pandas as pd
 from os.path import join
 import numpy as np
-data_folder="static/data"
+import json
 
-rule_files={
-	"general_store":join(data_folder,"general_store_rules.csv")
+DATA_FOLDER="static/data"
+
+json_files={
+	"general_store":join(DATA_FOLDER,"jsons/","general_store.json"),
+	"blacksmith":join(DATA_FOLDER,"jsons/","blacksmith.json")
 }
 
 item_files={
-	"general_store":join(data_folder,"general_store_items.csv")
+	"general_store":join(DATA_FOLDER,"general_store_items.csv"),
+	"blacksmith":join(DATA_FOLDER,"blacksmith_items.csv")
+
 }
 
 
@@ -22,7 +27,11 @@ class Store:
 		'''
 		initialize a specific store by providing the store specific probability file and upgrade level
 		'''
-		self.rule_file=rule_files[store_type]
+		with open(json_files[store_type],"r") as f:
+			self.store=json.load(f)
+			self.level=self.store["level"]
+
+		self.rule_file=join(DATA_FOLDER,"rules/",self.store["levels"][self.level])
 		self.item_file=item_files[store_type]
 		self.current_level=level
 		
@@ -36,9 +45,7 @@ class Store:
 		table=pd.read_csv(self.item_file)
 		table["Title"]=table["Type"]+" ("+table["Subtype"]+")"
 		titles=table["Title"].unique()
-		table=[table[table["Title"]==x] for x in titles]
-		table=table.drop("Title",axis=1).fillna("-")
-		print(titles)
+		table=[table[table["Title"]==x].drop("Title",axis=1).fillna("-") for x in titles]
 		return table,titles
 
 	def generate_items_list(self,level):
@@ -48,9 +55,11 @@ class Store:
 		Applies mark up
 		'''
 		#load items and filter table 
+		print(self.rule_file)
 		rule_df=pd.read_csv(self.rule_file)
+		print(rule_df)
 		rule_df=rule_df[rule_df["Level"]==self.current_level]
-		items_df=pd.read_csv(join(data_folder,"mundane.csv")).merge(rule_df,on=["Type","Subtype"])
+		items_df=pd.read_csv(join(DATA_FOLDER,"mundane.csv")).merge(rule_df,on=["Type","Subtype"],how="inner")
 
 		#get a random number for every row (0-1) and keep if lower than probability of item being in stock
 		idx=items_df["probability"].map(lambda x: np.random.uniform()<x)

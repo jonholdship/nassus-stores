@@ -1,0 +1,13 @@
+{
+	"name": "General Store",
+	"proprietor": "Henrique",
+	"player": "Harry",
+	"image": "img/general_store.jpg",
+	"description": "blah blah blah",
+	"color_primary":"#2A9D8F",
+	"level":"1",
+	"levels":{
+		"1": "general_store_1.csv",
+		"2": "general_store_2.csv"
+	}
+}

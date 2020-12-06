@@ -1,24 +1,55 @@
-:root {
-  --main-bg-color: #264653;
-  --white: #faf0e6; 
-  --blacksmith:#E76F51;
-  --alchemist:#E9C46A;
-  --general:#2A9D8F;
-  --other:#F4A261;
-}
+      :root {
+    --main-bg-color: #264653;
+    --white: #faf0e6; 
+    --blacksmith:#E76F51;
+    --alchemist:#E9C46A;
+    --general:#2A9D8F;
+    --other:#F4A261;
+  }
 
 body {
   background-color: var(--main-bg-color);
+
 }
 
 h1 {
     color: var(--white);
     text-align: center;
-    padding: 10px;
+    padding: 20px;
+    font-size: : 400%
 }
 
 h2 {
 	color: white;
+}
+h3 {
+  color: white;
+}
+
+p{
+  color:white;
+}
+
+
+
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 40.0%;
+  align-items: center;
+  padding: 10px;
+}
+
+.column > img{
+  width: 100%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .grid-container {
@@ -43,6 +74,10 @@ h2 {
   font-size: 30px;
 }
 
+.divvy > img {
+  width: 33.3%;
+}
+
  a {
   text-decoration: none;
   color:var(--white);
@@ -57,10 +92,17 @@ h2 {
 }
 .grid-container > .blacksmith {
   background-color: var(--blacksmith);
-  opacity: .3;
 }
 
 
+.newspaper {
+  column-count: 2;
+  align-items: center;
+  column-gap: 40px;
+  column-rule-style: solid;
+  column-rule-width: 0px;
+  column-rule-color: white;
+}
 
 
 .general-table {
@@ -74,9 +116,9 @@ h2 {
   padding: 8px;
 }
 
-.general-table tr:nth-child(even){background-color: var(--white);}
+.general-table tr:nth-child(even){background-color: var(--primary);}
 
-.general-table tr:nth-child(odd){background-color: var(--general);}
+.general-table tr:nth-child(odd){background-color: var(--white);}
 
 .general-table tr:hover {background-color: #ddd;}
 
@@ -84,13 +126,13 @@ h2 {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
-  background-color: var(--general);
+  background-color: var(--primary);
   color: white;
 }
 
  /* Dropdown Button */
 .btn {
-  background-color: var(--general);
+  background-color: var(--primary);
   color: white;
   padding: 16px;
   font-size: 16px;
@@ -132,5 +174,5 @@ h2 {
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .btn:hover, .dropdown:hover .btn  {
-  background-color: var(--general);
+  background-color: var(--primary);
 } 

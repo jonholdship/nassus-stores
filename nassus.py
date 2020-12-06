@@ -6,13 +6,13 @@ app= Flask(__name__)
 def hello():
 	return render_template("index.html")
 
-@app.route("/general-store/", defaults={'level': None})
-@app.route("/general-store/<level>")
-def generate_general(level):
+@app.route("/store/<store_type>/", defaults={'level': None})
+@app.route("/store/<store_type>/<level>")
+def get_store_front(store_type,level):
 	print(level)
-	store=Store("general_store")
+	store=Store(store_type)
 	if level is not None:
 		store.generate_items_list(level)
-		return redirect("/general-store/")
+		return redirect(f"/store/{store_type}/")
 	tables,titles=store.get_item_tables()
-	return render_template("store.html",name="General Store",tables=[table.to_html(classes="general-table",index=False) for table in tables],titles=titles,levels=["Level 1","Level 2"])
+	return render_template("store.html",name="General Store",tables=[table.to_html(classes="general-table",index=False) for table in tables],titles=titles,store=store.store)

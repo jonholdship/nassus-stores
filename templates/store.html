@@ -4,11 +4,25 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <style>
+      :root {
+	  --primary:{{store.color_primary}};
+	}
+</style>
     <title>Nassus</title>
 </head>
 <body>
-   <h1>{{name}}</h1>
+   <h1>{{store.name}}</h1>
+
+  <div class="row">
+  <div class="column">
+  	<h2>Proprietor: {{store.proprietor}}</h2>
+  	<h3>Player : {{store.player}}</h3>
+  	<p>{{store.description}}<p>
+  </div>
+  <div class="column"><img src="{{ url_for('static', filename= store.image) }}"></div>
+
+</div>
 
  <!-- Font Awesome Icon Library -->
  <a href="/" class="btn">Back to Town</a>
@@ -18,15 +32,18 @@
     <i class="fa fa-caret-down"></i>
   </button>
   <div class="dropdown-content">
-  	{% for level in levels %}
+  	{% for level,file in store.levels.items() %}
   		<a href="{{level}}">{{level}}</a>
   	{% endfor %}
   </div>
 </div> 
-
+<div class="newspaper">
   {% for table in tables %}
+  	<div>
     <h2>{{titles[loop.index-1]}}</h2>
     {{ table|safe }}
+	</div>
   {% endfor %}
+</div>
 </body>
 </html>
