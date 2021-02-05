@@ -1,10 +1,12 @@
       :root {
     --main-bg-color: #264653;
     --white: #faf0e6; 
-    --blacksmith:#E76F51;
+    --blacksmith:#6B5EAC;
     --alchemist:#E9C46A;
     --general:#2A9D8F;
-    --other:#F4A261;
+    --council:#4B7EA8;
+    --map:#A8465C;
+    --tavern:#E76F51;
   }
 
 body {
@@ -89,18 +91,22 @@ p{
 
 .grid-container > .alchemist {
   background-color: var(--alchemist);
-  opacity: .3;
+  /*opacity: .3;*/
 
 }
 .grid-container > .blacksmith {
   background-color: var(--blacksmith);
 }
 .grid-container > .council {
-  background-color: var(--other);
+  background-color: var(--council);
 }
 
 .grid-container > .map {
-  background-color: var(--alchemist);
+  background-color: var(--map);
+}
+
+.grid-container > .tavern {
+  background-color: var(--tavern);
 }
 
 .newspaper {
