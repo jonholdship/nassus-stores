@@ -85,7 +85,9 @@ p{
 
 .grid-container > .general {
   background-color: var(--general);
-}.grid-container > .alchemist {
+}
+
+.grid-container > .alchemist {
   background-color: var(--alchemist);
   opacity: .3;
 
@@ -93,7 +95,13 @@ p{
 .grid-container > .blacksmith {
   background-color: var(--blacksmith);
 }
+.grid-container > .council {
+  background-color: var(--other);
+}
 
+.grid-container > .map {
+  background-color: var(--alchemist);
+}
 
 .newspaper {
   column-count: 2;
