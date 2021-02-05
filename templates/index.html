@@ -6,8 +6,7 @@
     <title>Nassus</title>
 </head>
 <body>
-   <h1>Welcome to Nassus</h1>
-
+ <h1>Welcome to Nassus</h1>
 <div class="grid-container">
   <a href="store/general_store" class="divvy general">
   		<h2> General Store</h2>
@@ -22,6 +21,21 @@
   		<h2> Blacksmith</h2>
   		<img src="{{ url_for('static', filename= 'img/anvil_t.png') }}">
   </a>
+
+  <a href="map" class="divvy general">
+      <h2> Map</h2>
+      <img src="{{ url_for('static', filename= 'img/bag_t.png') }}">
+  </a>
+  <a href="council/" class="divvy alchemist">
+      <h2> Council Meeting</h2>
+    <img src="{{ url_for('static', filename= 'img/bottle_t.png') }}">
+
+  </a>
+<!--   <a href="store/blacksmith" class="divvy blacksmith">
+      <h2> Blacksmith</h2>
+      <img src="{{ url_for('static', filename= 'img/anvil_t.png') }}">
+  </a>
+ -->
 </div>
 </body>
 </html>
