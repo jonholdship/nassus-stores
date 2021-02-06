@@ -4,7 +4,7 @@
 	"player": "Gavin",
 	"image": "img/blacksmith.jpg",
 	"description": "I've got nothing other than cast offs from travellers passing through. Now you if you got me an anvil, that would be a different story...",
-	"color_primary":"#E76F51",
+	"color_primary":"#6B5EAC",
 	"level":"1",
 	"levels":{
 		"1": "blacksmith_1.csv"

@@ -91,7 +91,7 @@ p{
 
 .grid-container > .alchemist {
   background-color: var(--alchemist);
-  /*opacity: .3;*/
+  opacity: .3;
 
 }
 .grid-container > .blacksmith {
@@ -107,6 +107,7 @@ p{
 
 .grid-container > .tavern {
   background-color: var(--tavern);
+  opacity: .3;
 }
 
 .newspaper {
@@ -192,22 +193,17 @@ p{
 } 
 
  /* Container holding the image and the text */
-.container {
+.rumour {
   position: relative;
+  background-image: url("static/img/scroll.png");
+  min-height: 400px;
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-top:100px;
+  background-size: cover;
+  color: var(--council);
 }
 
-/* Bottom right text */
-.text-block {
-  position: absolute;
-  top: 20%;
-  left: 20%;
-  width:60%;
-  padding: 128 px;
-  background: rgb(0, 0, 0); /* Fallback color */
-  background: rgba(0, 0, 0, 0.0); /* Black background with 0.5 opacity */
-  color: var(--background);
-} 
-
-.text-block > p{
+.rumour > p{
   color:var(--background);
 }

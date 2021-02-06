@@ -1,5 +1,6 @@
 Type,Subtype,probability,mark_up,Level
 Armor,Light,0.4,1.2,1
+Armor,Medium,0.1,1.2,1
 Armor,Shield,0.1,1.2,1
 Misc,Ammo,0.8,1.2,1
 Weapon,Martial,0.1,1.2,1

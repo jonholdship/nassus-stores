@@ -1,120 +1,62 @@
 Name,Weight,Type,Subtype,Price
-Acid (vial),1 lb.,Misc,Ammo,25 gp
-Alchemist's Fire (flask),1 lb.,Misc,Ammo,50 gp
-Arrows (20),1 lb.,Misc,Ammo,1 gp
-Blowgun Needle (50),1 lb.,Misc,Ammo,1 gp
 Crossbow Bolts (20),1.5 lb.,Misc,Ammo,1 gp
-Sling Bullets (20),1.5 lb.,Misc,Ammo,4 cp
-Amulet , 1 Ib,Misc,Focus,5 gp
-Holy Symbol,,Misc,Focus,
-Orb,3 lb.,Misc,Focus,20 gp
-Rod,2 lb.,Misc,Focus,10 gp
-Sprig of Mistletoe,-,Misc,Focus,1 gp
-Staff,4 lb.,Misc,Focus,5 gp
-Wand,1 lb.,Misc,Focus,10 gp
-Wooden Staff,4 lb.,Misc,Focus,5 gp
+Crystal,1 lb.,Misc,Focus,10 gp
+Reliquary ,2 lb.,Misc,Focus,5 gp
 Dice set,-,Misc,Game,1 sp
 Dragonchess set,.5 lb.,Misc,Game,1 gp
-Gaming Sets,,Misc,Game,
 Playing card set,-,Misc,Game,5 gp
+Three-Dragon Ante set,-,Misc,Game,1 gp
 Backpack,5 lb.,Misc,Gear,2 gp
-Barrel,70 lb.,Misc,Gear,2 gp
-Bell,-,Misc,Gear,1 gp
+Ball Bearings (bag of 1000),2 lb.,Misc,Gear,1 gp
+Basket,2 lb.,Misc,Gear,4 sp
 Bit and Bridle,1 lb.,Misc,Gear,2 gp
-Blanket,3 lb.,Misc,Gear,5 sp
 Block and Tackle,5 lb.,Misc,Gear,1 gp
 Book,5 lb.,Misc,Gear,25 gp
 "Bottle, Glass",2 lb.,Misc,Gear,2 gp
 Bucket,2 lb.,Misc,Gear,5 cp
 Caltrops (bag of 20),2 lb.,Misc,Gear,1 gp
-"Case, Crossbow Bolt",1 lb.,Misc,Gear,1 gp
 "Case, Map and Scroll",1 lb.,Misc,Gear,1 gp
-Chain (10ft),10 lb.,Misc,Gear,5 gp
-Chalk (1 piece),-,Misc,Gear,1 cp
 Climber's kit,12 lb.,Misc,Gear,25 gp
-"Clothes, Fine",6 lb.,Misc,Gear,15 gp
-Component Pouch,2 lb.,Misc,Gear,25 gp
+"Clothes, Traveler's",4 lb.,Misc,Gear,2 gp
 Crowbar,5 lb.,Misc,Gear,2 gp
-Feed (per day),10 lb.,Misc,Gear,5 cp
-Hammer,3 lb.,Misc,Gear,1 gp
+Exotic Saddle,40 lb.,Misc,Gear,60 gp
 "Hammer, Sledge",10 lb.,Misc,Gear,2 gp
 Hourglass ,1 lb.,Misc,Gear,25 gp
-Ink pen,,Misc,Gear,2 cp
+Hunting Trap,25 lb.,Misc,Gear,5 gp
 Jug or pitcher,4 lb.,Misc,Gear,2 cp
-Ladder (10-foot),25 lb.,Misc,Gear,1 sp
 Lamp,1 lb.,Misc,Gear,5 sp
-"Lantern, hooded",2 lb.,Misc,Gear,5 gp
-Lock,1 lb.,Misc,Gear,10 gp
 Manacles,6 lb.,Misc,Gear,2 gp
-Mess ki,1 lb.,Misc,Gear,2 sp
 Military Saddle,30 lb.,Misc,Gear,20 gp
-"Mirror, steel",.25 lb.,Misc,Gear,5 gp
-Paper (one sheet),-,Misc,Gear,2 sp
-Parchment (one sheet),-,Misc,Gear,1 sp
-Perfume (vial),-,Misc,Gear,5 gp
-Piton,.25 lb.,Misc,Gear,5 cp
-"Poison, basic (vial)",-,Misc,Gear,100 gp
+"Pick, miner's",10 lb.,Misc,Gear,2 gp
+Pole (10-foot),7 lb.,Misc,Gear,5 cp
 "Pot, iron",10 lb.,Misc,Gear,2 gp
 Potion of healing,.5 lb.,Misc,Gear,50 gp
 Pouch,1 lb.,Misc,Gear,5 sp
 Quiver,1 lb.,Misc,Gear,1 gp
 "Ram, portable",35 lb.,Misc,Gear,4 gp
 Rations (l day),2 lb.,Misc,Gear,5 sp
-Robes,4 lb.,Misc,Gear,1 gp
 "Rope, hempen (50 feet)",10 lb.,Misc,Gear,1 gp
-"Rope, silk (50 feet)",5 lb.,Misc,Gear,10 gp
-Sack,.5 lb.,Misc,Gear,1 cp
 Saddle Pack,15 lb.,Misc,Gear,5 gp
-"Scale, merchant's",3 lb.,Misc,Gear,5 gp
 Shovel,5 lb.,Misc,Gear,2 gp
 Signal whistle,-,Misc,Gear,5 cp
-Signe! ring,-,Misc,Gear,5 gp
 Sled,300 lb.,Misc,Gear,20 gp
 Soap,-,Misc,Gear,2 cp
 Spellbook,3 lb.,Misc,Gear,50 gp
-Spyglass,1 lb.,Misc,Gear,1000 gp
-Tinderbox,1 lb.,Misc,Gear,5 sp
+"Tent, two-person",20 lb.,Misc,Gear,2 gp
 Torch,1 lb.,Misc,Gear,1 cp
 Waterskin,(Full) 5 lb.,Misc,Gear,2 sp
-Alchemist's supplies,8 lb.,Misc,Tools,50 gp
+Abacus,2 lb.,Misc,Misc,2 gp
+Flask or Tankard,4 lb.,Misc,Misc,1 gp
+Flask or Tankard,1 lb.,Misc,Misc,2 cp
+Stabling (per day),-,Misc,Service,5 sp
 Artisan's Tools,,Misc,Tools,
-Bagpipe,6 lb.,Misc,Tools,30 gp
-Brewer's supplies,9 lb.,Misc,Tools,20 gp
-Calligrapher's supplies,5 lb.,Misc,Tools,10 gp
-Carpenter's tools,6 lb.,Misc,Tools,8 gp
-Cartographer's tools,6 lb.,Misc,Tools,15 gp
-Cobbler's tools,5 lb.,Misc,Tools,5 gp
-Cook's utensils,8 lb.,Misc,Tools,1 gp
 Disguise kit,3 lb.,Misc,Tools,25 gp
-Drum,3 lb.,Misc,Tools,6 gp
-Dulcimer,10 lb.,Misc,Tools,25 gp
-Flute,1 lb.,Misc,Tools,2 gp
-Forgery kit,5 lb.,Misc,Tools,15 gp
-Glassblower's tools,5 lb.,Misc,Tools,30 gp
-Healer's kit,3 lb.,Misc,Tools,5 gp
-Herbalism kit,3 lb.,Misc,Tools,5 gp
-Horn,2 lb.,Misc,Tools,3 gp
 Jeweler's tools,2 lb.,Misc,Tools,25 gp
-Leatherworker's tools,5 lb.,Misc,Tools,5 gp
-Lute,2 lb.,Misc,Tools,35 gp
-Lyre,2 lb.,Misc,Tools,30 gp
-Mason's tools,8 lb.,Misc,Tools,10 gp
+Navigator's tools,2 lb.,Misc,Tools,25 gp
 Painter's supplies,5 lb.,Misc,Tools,10 gp
-Pan Flute,2 lb.,Misc,Tools,12 gp
-Poisoner's kit,2 lb.,Misc,Tools,50 gp
-Potter's tools,3 lb.,Misc,Tools,10 gp
-Shawm,1 lb.,Misc,Tools,2 gp
-Smith's tools,8 lb.,Misc,Tools,20 gp
-Thieves' tools,1 lb.,Misc,Tools,25 gp
-Tinker's tools,10 lb.,Misc,Tools,50 gp
-Viol,1 lb.,Misc,Tools,30 gp
 Weaver's tools,5 lb.,Misc,Tools,1 gp
-Woodcarver's tools,5 lb.,Misc,Tools,1 gp
-Carriage,600 lb.,Transport,Misc,100 gp
-Chariot,100 lb.,Transport,Misc,250 gp
-Wagon,400 lb.,Transport,Misc,35 gp
 Club,2 lb.,Weapon,Simple,1 sp
 Dagger,1 lb.,Weapon,Simple,2 gp
 Dart,.25 lb.,Weapon,Simple,5 cp
 Handaxe,2 lb.,Weapon,Simple,5 gp
-Sickle,2 lb.,Weapon,Simple,1 gp
+Sling,-,Weapon,Simple,1 sp

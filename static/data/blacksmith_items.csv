@@ -1,17 +1,19 @@
 Name,Weight,Type,Subtype,Price
-Leather,10 lb.,Armor,Light,10 gp
+Padded,8 lb.,Armor,Light,5 gp
+Studded Leather,13 lb.,Armor,Light,45 gp
+Acid (vial),1 lb.,Misc,Ammo,25 gp
 Alchemist's Fire (flask),1 lb.,Misc,Ammo,50 gp
 Arrows (20),1 lb.,Misc,Ammo,1 gp
 Blowgun Needle (50),1 lb.,Misc,Ammo,1 gp
+Crossbow Bolts (20),1.5 lb.,Misc,Ammo,1 gp
 Sling Bullets (20),1.5 lb.,Misc,Ammo,4 cp
-Longbow,2 lb.,Weapon,Martial,50 gp
-Pike,18 lb.,Weapon,Martial,5 gp
-Rapier,2 lb.,Weapon,Martial,25 gp
-Club,2 lb.,Weapon,Simple,1 sp
+"Crossbow, heavy",18 lb.,Weapon,Martial,50 gp
+Flail,2 lb.,Weapon,Martial,10 gp
+Warhammer,2 lb.,Weapon,Martial,15 gp
 Dagger,1 lb.,Weapon,Simple,2 gp
-Dart,.25 lb.,Weapon,Simple,5 cp
 Greatclub,10 lb.,Weapon,Simple,2 sp
 Javelin,2 lb.,Weapon,Simple,5 sp
 Mace,5 lb.,Weapon,Simple,5 gp
 Quarterstaff,5 lb.,Weapon,Simple,2 sp
+Shortbow,2 lb.,Weapon,Simple,25 gp
 Sickle,2 lb.,Weapon,Simple,1 gp

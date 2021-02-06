@@ -3,23 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}">
+    <style>
+      :root {
+    --primary:var(--council);
+      }
+    </style>
     <title>Nassus</title>
 </head>
 <body>
  <h1>Rumour Board</h1>
-
+<a href="/" class="btn">Back to Town</a>
+<a href="{{sheet}}" class="btn">Rumour Sheet</a>
 <div class="grid-container">
 
   {% for i,rumour in rumours.iterrows() %}
-   <div class="container">
-    <img src="{{ url_for('static', filename= 'img/scroll.png') }}" alt="" style="width:100%;">
-    <div class="text-block">
-      <h4>{{rumour[0]}}</h4>
-      <h5>{{rumour[1]}} - {{rumour[3]}} Session</h5>
-      <h5>{{rumour[2]}}</h5>
-      <p>{{rumour[4]}}</p>
+    <!-- <img src="" alt="" style="width:100%;"> -->
+    <div class="rumour" style="background-image:url({{ url_for('static', filename='img/scroll.png')}})">
+        <h4>{{rumour[0]}}</h4>
+        <h5>{{rumour[1]}} - {{rumour[3]}} Session</h5>
+        <h5>{{rumour[2]}}</h5>
+        <p>{{rumour[4]}}</p>
     </div>
-  </div> 
     {% endfor %}
 </div>
 </body>
