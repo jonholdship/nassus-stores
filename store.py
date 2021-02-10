@@ -2,8 +2,31 @@ import pandas as pd
 from os.path import join
 import numpy as np
 import json
+from datetime import date
 
 DATA_FOLDER="static/data"
+
+
+dialogue={"general_store":["Well howdy y’all! What can Pravira do ya for?",
+							"GO ON, GET OUTTA MY STORE!!……Apologies friends, been havin’ a lotta trouble with pack rats these days…What can I do ya for?",
+							"A visitor! So nice to have y’all visit my store. What can I get for you darlin’?",
+							"I been hearing whispers about trouble out in The Ghostlands…I sure hope y’all are keepin’ safe out there. Wouldn’t want to lose my favourite customers now! Speaking of which….anything I can help you with today?",
+							"Phew! Sure is hot out there today…glad I got this beautiful wide hat to shield me from the sun. Sure, I might have blue-green skin, but that don’t mean I won’t turn lobster red if I stay out there too long!"+
+								"Anything I can get y’all? Perhaps an ice-cold glass of somethin’?"],
+		"blacksmith":["Just take whatever you're here for and leave the money by that broken halberd over there.",
+					"Hey, not a step further! Whadd'ya need?",
+					"Can't you see I'm busy over here?",
+					"Armour, weapons, ammo, it's always the same with you folks!",
+					"Whadd'ya want this time?",
+					"If I ain't got what ya need, that ain't my problem.",
+					"You need what now?! You could've let me know a week ago!",
+					"Hey you, come and hold this for a minute, I ain't got enough hands for this place",
+					"Hey, don't touch that!",
+					"What can I help you with?",
+					"Can you fetch me some water? I'm parched!",
+					"Sure, I got what you need, but first come help me with the furnace. Yes, now, this pauldron won't make itself!",
+					"Phew, finally done. What do you need next?"
+		]}
 
 json_files={
 	"general_store":join(DATA_FOLDER,"jsons/","general_store.json"),
@@ -29,6 +52,8 @@ class Store:
 		'''
 		with open(json_files[store_type],"r") as f:
 			self.store=json.load(f)
+			np.random.seed(date.today().toordinal())
+			self.store["dialogue"]=np.random.choice(dialogue[store_type])
 			self.level=self.store["level"]
 
 		self.rule_file=join(DATA_FOLDER,"rules/",self.store["levels"][self.level])

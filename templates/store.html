@@ -18,7 +18,8 @@
   <div class="column">
   	<h2>Proprietor: {{store.proprietor}}</h2>
   	<h3>Player : {{store.player}}</h3>
-  	<p>{{store.description}}<p>
+    <p style="font-style:italic">{{store.dialogue}}</p>
+  	<p>{{store.description|safe}}<p>
   </div>
   <div class="column"><img src="{{ url_for('static', filename= store.image) }}"></div>
 

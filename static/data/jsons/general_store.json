@@ -1,9 +1,9 @@
 {
-	"name": "General Store",
+	"name": "Lady Pravira’s General Store",
 	"proprietor": "Lady Pravira",
 	"player": "Greg",
 	"image": "img/general_store.jpg",
-	"description": "blah blah blah",
+	"description": "<p>Lady Pravira is tall. Despite her intimidating size, she’s a very warm and welcoming woman who takes great pleasure in providing a hub for the town through her shop.</p><p> As well as her immense height and strong build, she is characterised by her blue-green skin, long orange hair, and sophisticated dresses. She’ll often keep a small bouquet of flower behind her ear or in her hair, and whenever she walks about town she can be spotted wearing a wide-brimmed white hat.</p>",
 	"color_primary":"#2A9D8F",
 	"level":"1",
 	"levels":{
