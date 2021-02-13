@@ -219,7 +219,8 @@ ul.a{
    Mobile styles
    ========================================================================== */
 /* Landscape phone to portrait tablet */
-@media (max-width: 767px) {
+@media only screen and (max-width: 768px) {
+
 
 
 .grid-container {
@@ -229,7 +230,19 @@ ul.a{
   grid-template-columns: auto;
   grid-gap: 5%;
   padding: 0%;
+  margin-top:100px;
 }
 
-
+.rumour {
+  position: relative;
+  background-image: url("static/img/scroll.png");
+  min-height: 400px;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top:20%;
+  padding-bottom: 20%;
+  background-size: 100% 100%;
+  color: var(--council);
 }
+}
+

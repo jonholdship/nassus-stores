@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}">
     <style>
       :root {
@@ -11,9 +13,11 @@
     <title>Nassus</title>
 </head>
 <body>
+    <div class = "container">
  <h1>Rumour Board</h1>
 <a href="/" class="btn">Back to Town</a>
 <a href="{{sheet}}" class="btn">Rumour Sheet</a>
+</div>
 <div class="grid-container">
 
   {% for i,rumour in rumours.iterrows() %}
