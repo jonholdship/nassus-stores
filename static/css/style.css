@@ -202,9 +202,10 @@ ul.a{
   position: relative;
   background-image: url("static/img/scroll.png");
   min-height: 400px;
-  padding-left: 120px;
-  padding-right: 120px;
-  padding-top:100px;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top:15%;
+  padding-bottom: 15%;
   background-size: 100% 100%;
   color: var(--council);
 }
@@ -226,19 +227,9 @@ ul.a{
   min-height: 400px;
   align-content: center;
   grid-template-columns: auto;
-  grid-gap: 50px;
-  padding: 50px;
+  grid-gap: 5%;
+  padding: 0%;
 }
 
-.rumour {
-  position: relative;
-  background-image: url("static/img/scroll.png");
-  min-height: 400px;
-  padding-left: 120px;
-  padding-right: 120px;
-  padding-top:100px;
-  background-size: 100% 100%;
-  color: var(--council);
-}
 
 }
