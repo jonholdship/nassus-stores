@@ -38,7 +38,10 @@ ul.a{
 }
 
 
-
+img{
+  width:100%;
+  heigh:auto;
+}
 
 /* Create three equal columns that floats next to each other */
 .column {
