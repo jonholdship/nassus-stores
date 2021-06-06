@@ -22,6 +22,7 @@ def get_store_front(store_type,level):
 def get_rumors():
 	sheet="https://docs.google.com/spreadsheets/d/1010E504bSwUuVMSt1v-OGkZYjq2V95Xn0cYXXtbNTi0/"
 	rumours=read_csv(f"{sheet}export?gid=0&format=csv")
+	rumours=rumours.sort_values("Estimate Sessions")
 	return render_template("council.html",name="Rumours",rumours=rumours,sheet=sheet)
 
 @app.route("/map/")
